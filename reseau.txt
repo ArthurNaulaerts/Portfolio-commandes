@@ -1,0 +1,70 @@
+Synthèse des formules utiles pour les labos de réseau:
+
+Labo 3: 
+
+Ipconfig est une commande qui permet d'afficher ou de modifier les paramètres de configuration IP non disponibles via les menus de configuration TCP/IP standard.
+
+En tapant netsh interface ip show address , l'utilitaire retourne l'adresse IP actuelle de l'ordinateur.
+
+netsh interface ip set address sert à configurer une adresse statique sur une interface.
+
+netsh interface ip add address sert à ajouter une adresse supplémentaire.
+
+netsh interface ip delete address sert à supprimer une adresse.
+
+ipconfig /release sert à liberer les connexions.
+
+ipconfig /renew sert à rétablir les connexions.
+
+netsh interface set interface "Ethernet" enable sert à activer une carte réseau.
+
+netsh interface set interface "Ethernet" disable sert à désactiver une carte réseau.
+
+Ces formules servent à vérifier, supprimer et configurer le default gateway en IPv4:
+
+route print
+
+route add [-p] 
+
+route delete 
+
+Labo 4: sous linux
+
+Pour passer de l’utilisateur courant à l’utilisateur root --> su - root
+
+setxkbmap be pour configurer le clavier 
+
+La commande "ip addr show" (ip -6 addr show pour l’IPv6) montre les cartes du serveur et les protocoles configurés dessus.
+
+La commande ip link show montre les informations niveau 2 de la carte.
+
+La commande ip route show montre les routes configurées sur le serveur.
+
+La commande cat /etc/resolv.conf affiche le contenu du fichier resolv.conf. Il est généré automatiquement par le service resolvconf. Il permet de voir quels serveurs DNS on utilise et le search domain.
+
+La commande ifdown enp0s3 déconfigure l'interface enp0s3.
+
+La commande ifup enp0s3 configure l'interface enp0s3.
+
+La commande ifquery enp0s3 renvoie la liste des paramètres liés à l’interface enp0s3 dans le fichier interfaces.
+
+La commande ip addr flush dev enp0s3 sert à retirer la configuration d’une interface, on ajoute l'option -6 après ip pour préciser qu'on s'adresse au stack IPv6.
+
+Labo 7: Kali/Wireshark
+
+Utilise sudo su pour te mettre en root.
+
+Pour installer un outil, utilise apt-get install puis l'outil en question.
+On peut aussi ajouter -y pour éviter d'avoir à taper y pendant le téléchargement.
+
+Ne pas oublier de taper update pour mettre à jour les paquets/outils avant d'installer.
+
+La commande ip neigh show sert à afficher la table ARP.
+
+La commande ip neigh flush all sert à effacer la table ARP.
+
+La commande nslookup sert à trouver l'adresse IP d'un hôte spécifique ou le nom de domaine d'une adresse IP spécifique.
+
+Labo 8:
+
+

@@ -1,0 +1,62 @@
+Synthèse des formules utiles pour les labos d'OS:
+
+La commande passwd sert à modifier son mot de passe
+
+La commande mkdir sert à créer un répertoire.
+
+La commande touch sert à créer un fichier.
+
+Les commandes head et tail affichent le début et la fin d'un fichier.
+Ces commandes affichent par défaut les 10 premiers caractères mais on peut ajouer -n puis spécifier un nombre de lignes différents.
+
+La commande file analyse le début du contenu d'un fichier et affiche son type.
+
+La commande wc compte les lignes, mots et caractères d'un fichier. 
+Elle accepte les options -l, -w ou -c pour n'afficher respectivement que le nombre de lignes, mots ou caractères.
+
+La commande history affiche une liste des commandes précédemment exécutées, préfixées par un numéro de commande.
+
+Ligne de commande sous debian:
+
+La commande tree donne une représentation graphique des dossiers.
+
+La commande cd  est un déplacement vers le répertoire « home » de l’utilisateur courant.
+
+La commande cd / est un déplacement vers la racine du système de fichiers.
+
+La commande cd - est un déplacement vers le dossier précédent (pas le parent).
+
+La commande cd xxxx est un déplacement vers le dossier xxxx qui est un sous-répertoire du répertoire courant (erreur s’il n’existe pas). « xxxx »est un chemin relatif.
+
+
+La commande cd /xxxx est un déplacement vers le dossier xxxx qui est à la racine du système de fichier (erreur s’il n’existe pas). « /xxxx » est un chemin absolu.
+
+La commande cd ../xxxx est un déplacement vers le dossier xxxx qui est au même niveau que le répertoire courant.
+
+La commande ls sert à lister le contenu d'un fichier.
+L'option -l sert à afficher plus de détails sur les fichiers.
+
+La commande cp fichier1 fichier2  sert à copier un fichier1 dans un nouveau fichier de nom fichier2.
+
+La commande cp fichier1 fichier2 fichier3 rep1 sert à copier des fichiers fichier1, fichier2 et fichier3 dans un répertoire rep1.
+
+La commande mv fichier1 fichier2 sert à déplacer un fichier fichier1 vers un fichier2 en écrasant un éventuel fichier2 existant, donc, le renomme.
+
+Labo 5: commandes sous windows
+
+La commande set sert à afficher la liste des variables d’environnement.
+
+La commande dir permet d’afficher la liste des fichiers et des répertoires dans le répertoire courant. 
+
+La commande rmdir supprime un répertoire.
+
+Lors de l'utilisation de la commande dir , on peut soit ajouter un ? qui remplace un seul caractère ou alors un * qui remplace un ensemble de caractères indéfinis.
+
+La commande copy  copie un fichier source vers une autre destination ou sous un autre nom.
+
+Pour créer un fichier on utilise la commande copy con suivi du nom du fichier que l’on veut créer.
+
+La commande net user permet d’ajouter ou de gérer des utilisateurs.
+
+La commande net localgroup permet d’ajouter ou de gérer les groupes.
+
