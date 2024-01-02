@@ -1,0 +1,13 @@
+Formules utiles pour l'utilisation de git/github:
+
+git init sert à créer un dépôt git caché dans un fichier.
+
+git add sert à indexer les fichiers présents dans le dépôt.
+
+git commit -m "Ajout du fichier ...." sert à créer une nouvelle version du fichier.
+
+clip sert à copier ce qu'il y a dans le presse papier.
+
+git push -u origin main sert envoyer toutes les modifications de la branche main dans un repository.
+
+git branch -M main sert à aller dans la branche "main" d'un fichier.
